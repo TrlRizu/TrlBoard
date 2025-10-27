@@ -28,3 +28,23 @@ Below is the early draft of parts, after researching (tho not complete yet), I w
 
   
 
+## 10/27/2025 - Drafting Schematic pt2  
+
+
+I found out that the ASM330LHHXTR was way too expensive of an IMU for a hobbyist. And so I looked for alternatives, lo and behold, the MPU-6050:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTkxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--4bb3929626f3100544ca6e9f92137ee5f93d33e7/image.png)
+
+I struggled with the idea of, how would I classify this, boot-loading? What I mean to say is the question of how I was going to program my board. I found that the ESP32-devkit-C had two buttons: boot and reset. 
+What were they?
+BOOT: pulls LOW to enter bootloader
+RESET: pull LOW to reset chip
+ok cool, but I know that I can just program an Arduino board by connecting it to the PC via USB? 
+Yes, and that's possible because of a pre-installed bootloader and USB-UART bridge that handles the reset.
+So now I needed a USB-UART bridge (I already had one but I didn't know what it was for); I ended up switching to CH340C copying Arduino Nano's -cheap and works perfectly.
+And then I noticed some pins on the CH340C [datasheet](https://datasheet.lcsc.com/lcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf) that puzzled me: DTS & RTS
+After reading, I found that they are control signals that would allow me to ditch the buttons. My IDE can toggle them to automatically reset the ESP32 and the bootloader. Also thanks to the ROM-bootloader I wouldn't have to install anything extra.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTkxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--ba2634ed12b7e387d3d9b11c776987b44db25825/image.png)
+
+  
+
