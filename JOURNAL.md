@@ -48,3 +48,14 @@ After reading, I found that they are control signals that would allow me to ditc
 
   
 
+## 10/30/2025 - Routing PCB draft  
+
+The plan of making it in somewhat the size of a Raspberry Pi Pico is still on full steam. This is the first draft. Not every passive is there, but I think I've spent long enough for today drafting this:
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjcwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--e0032cb36b6aed46604140e65235f8a1c47f78a1/image.png)
+
+Also, you may have noticed that the DHT11 sensor is not on the board. That is intentional as I am in a dilemma: to include or not to. It arose from its placement requirements, it can't be near ICs as they may tamper with the accuracy of the sensor. Plus the IMU as well have to be placed more meticulously and I still hadn't figured out where I would be positioning it. Below is the attached photo of the DHT which I had tried including a while ago:
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjcxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--faf1ab48c3618fb92b0881bf9cd949b7ee2172aa/image.png)
+  
+
