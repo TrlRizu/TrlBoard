@@ -59,3 +59,18 @@ Also, you may have noticed that the DHT11 sensor is not on the board. That is in
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjcxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--faf1ab48c3618fb92b0881bf9cd949b7ee2172aa/image.png)
   
 
+## 11/1/2025 - Routing again  
+
+I've got to plan my layout once again. I opted to place the battery charger and the buck-boost converter on opposite sides almost mirrored on the USB and USB-UART bridge line:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--9c8ec6d3e3fb267949ac8785227c2416c5a9a985/image.png)
+But I do really need to make this neater, it doesn't look so appealing to me...
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--937b856827a0a3baf0eb949539afddd7ee373f18/image.png)
+
+Future additions:
+- NTC thermistor
+- SMD temp sensors
+
+there was a suggestion to me to tackle the sensitivity:
+"place a connector and have a long NTC probe"  
+
