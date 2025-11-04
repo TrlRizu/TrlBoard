@@ -74,3 +74,17 @@ Future additions:
 there was a suggestion to me to tackle the sensitivity:
 "place a connector and have a long NTC probe"  
 
+## 11/4/2025 - Finished routing  
+
+A rough look on how the board will look like. I don't quite like the large space at the bottom after the connector pins. Feels too bold. Looks too weird.
+
+I guess I'm struggling with the layout, I don't know if that battery connector is gonna disrupt the IMU's accuracy. Need to verify with the community if that layout is alright. Will also ask the community for tips on improving the layout!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODI4NSwicHVyIjoiYmxvYl9pZCJ9fQ==--3350a917201189557b90b3a8ac6f62f9b1664f16/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODI4NywicHVyIjoiYmxvYl9pZCJ9fQ==--2445e19c5b9ef66555b176ae6da9cdcbc661740b/image.png)
+
+
+
+  
+
