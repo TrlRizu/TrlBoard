@@ -98,5 +98,11 @@ This morning as I was scrolling through youtube I saw [Phil's vid](https://www.y
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU2OSwicHVyIjoiYmxvYl9pZCJ9fQ==--8045609a0e7246bbe8ef97df35f3dd804a7f4686/image.png)
 
-I shall fix that error in the next journal  
+I shall fix that error in the next journal
+
+Edit: lol it was a quick fix, it didn't need another journal at all
+So for the copper fills, it was just as easy as selecting solid instead of thermal reliefs. I also forgot to put a keep-out rule for the IMU which I did now :D
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--18c08ac6176701e3f53c2458c2347b90fea77d48/image.png) 
+  
 
