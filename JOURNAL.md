@@ -88,3 +88,15 @@ I guess I'm struggling with the layout, I don't know if that battery connector i
 
   
 
+## 11/5/2025 - Re-routed PCB  
+
+Rather quick re-routing. I just pushed my components upward so now it's more compact.
+This morning as I was scrolling through youtube I saw [Phil's vid](https://www.youtube.com/watch?v=M6_an34wQJk). That helped a lot with routing, but unfortunately I am still running into some problems with the DRC. Dominated by the error: thermal relief connection to zone incomplete, I can't quite find a solution to that yet.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--3ad310f90077272ae4aa387fc9105649a49e5187/image.png)
+
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU2OSwicHVyIjoiYmxvYl9pZCJ9fQ==--8045609a0e7246bbe8ef97df35f3dd804a7f4686/image.png)
+
+I shall fix that error in the next journal  
+
