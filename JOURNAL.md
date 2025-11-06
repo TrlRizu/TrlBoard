@@ -115,5 +115,11 @@ I increased the pins to 22 on each side after receiving advice from fellow hackC
 Today, I finalized the PCB color to be black and added my personal touch to the board:
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--4b0214f106bbf279ebb8eef1f6cb3d0e0a4117d7/image.png)
 
+What took a long time was figuring out a way to make things more interesting with the board. I dug up Kai's message about the placement of which layer a vector image should be in. I found this
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg0MiwicHVyIjoiYmxvYl9pZCJ9fQ==--aa780ae38ec5965a47ce5c4cf5a6908229e8e1e6/image.png)
+
+I wanted that shiny silver/gold for my elements. This was simply done by using the image converter from kicad. I created a footprint library for it and uploaded them on the layer F.Mask (B.Mask more accurately). I can't wait to manufacture this board!
+
+
   
 
