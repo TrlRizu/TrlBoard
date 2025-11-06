@@ -106,3 +106,14 @@ So for the copper fills, it was just as easy as selecting solid instead of therm
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODU3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--18c08ac6176701e3f53c2458c2347b90fea77d48/image.png) 
   
 
+## 11/6/2025 - Increased pins + aesthetics  
+
+I increased the pins to 22 on each side after receiving advice from fellow hackClubbers. Not much trouble with routing there. I think I've gotten the hang of it.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--00f75a613844f17bd96edf612fab27893317a0d1/image.png)
+
+Today, I finalized the PCB color to be black and added my personal touch to the board:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--4b0214f106bbf279ebb8eef1f6cb3d0e0a4117d7/image.png)
+
+  
+
