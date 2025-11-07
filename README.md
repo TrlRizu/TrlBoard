@@ -49,6 +49,17 @@ The board is manufactured through JLCPCB's PCBA though not complete as the ESP32
 
 > For my case (PCBA + ESP32 + Connector pins) check [BOM](TrlBoard-Bom.csv)
 
+
+| Designator | Footprint                        | Quantity | Quantity/Board | Value                 | Link                                                                                                                                                                                                                                    | Cost  | Running Cost |
+|------------|---------------------------------|----------|----------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------------|
+| PCBA       |                                 | 2        |                |                      | JLCPCB                                                                                                                                                                                                                                 | 72.19 | 72.19        |
+| U2         | ESP32-S3-WROOM-1                | 2        | 1              | ESP32-S3-WROOM-1     | [AliExpress](https://www.aliexpress.com/item/1005008405001510.html?spm=a2g0o.cart.0.0.186438daN5XPTv&mp=1)                                                                                                                        | 11.58 | 83.77        |
+| J2, J4     | PinHeader_1x22_P2.54mm_Vertical | 4        | 2              | Conn_01x12           | [AliExpress](https://www.aliexpress.com/item/4000988113226.html?spm=a2g0o.productlist.main.22.78fc5d654BIxDA&algo_pvid=1fd1bedd-4f7d-422c-8738-7bcee1d384c0&pdp_ext_f=%7B%22order%22%3A%221942%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A4000988113226%7C_p_origin_prod%3A) | 0.8   | 84.57        |
+|            |                                 |          |                | Conn_01x10           | [AliExpress](https://www.aliexpress.com/item/4000988113226.html?spm=a2g0o.productlist.main.22.78fc5d654BIxDA&algo_pvid=1fd1bedd-4f7d-422c-8738-7bcee1d384c0&pdp_ext_f=%7B%22order%22%3A%221942%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A4000988113226%7C_p_origin_prod%3A) | 0.75  | 85.32        |
+|            |                                 |          |                | **Total Cost**       |                                                                                       |       | **85.32**    |
+
+
+
 ---
 
 ## Intended purpose
