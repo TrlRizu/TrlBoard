@@ -123,3 +123,22 @@ I wanted that shiny silver/gold for my elements. This was simply done by using t
 
   
 
+## 11/7/2025 - BOM  
+
+Upon finding out that JLCPCB does not support ESP32-S3-WROOM1 for Economic PCBA, I headed to #blueprint to ask about alternatives. They replied:
+1). Tbh if possible just hand solder it. Esp modules are not that hard to hand solder
+2). the wroom 32e 8mb has economy pcba
+3). ESP32-WROVER-B-N8R8
+4). ESP32-WROVER-E-N8R8
+
+Frankly I evaluated options with the intent to not have an extravagant schematic + pcb layout overhaul. I was fine with a few re-routes if the pins are not far too distinct. I then immersed myself into its respective datasheets and to my surprise I convinced myself that I am alright with hand-soldering the ESP32-S3-WROOM-1. What did? The dual-core XTensa LX7 of this module was too difficult to pass on. Perhaps the WROVER-E can get to 1/4th of its capability but I intend to use this devboard for future robotics projects and having a core that's ready for ML is a huge++. 
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTA4MiwicHVyIjoiYmxvYl9pZCJ9fQ==--3a1f9aff2c96b7a279534ac6925cebf5f1456d9d/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTA4MywicHVyIjoiYmxvYl9pZCJ9fQ==--8b5365dea0baa4d58a6e4fb4b54141503fdba1a5/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTA4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--3130f1e0845e43daba11a8fa3f1530c120d10496/image.png)
+
+
+  
+
