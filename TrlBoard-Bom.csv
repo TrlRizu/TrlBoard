@@ -1,0 +1,6 @@
+,,,,,,,
+Designator,Footprint,Quantity,Quantity/board,Value,Link,,Running Cost
+PCBA,,2,,,JLCPCB,72.19,72.19
+U2,ESP32-S3-WROOM-1,2,1,ESP32-S3-WROOM-1,https://www.aliexpress.com/item/1005008405001510.html?spm=a2g0o.cart.0.0.186438daN5XPTv&mp=1,11.58,83.77
+"J2, J4",PinHeader_1x22_P2.54mm_Vertical,4,2,Conn_01x22,,,83.77
+,,,,,,Total Cost,83.77

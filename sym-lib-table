@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "B2B-XH-A_LF__SN_")(type "KiCad")(uri "D:/KiCad/B2B-XH-A_LF__SN_/B2B-XH-A_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "ASM330LHHXTR")(type "KiCad")(uri "D:/KiCad/ASM330LHHXTR/ASM330LHHXTR.kicad_sym")(options "")(descr ""))
+  (lib (name "CH340C")(type "KiCad")(uri "D:/KiCad/CH340C/CH340C.kicad_sym")(options "")(descr ""))
+  (lib (name "SS8050-G")(type "KiCad")(uri "D:/KiCad/SS8050-G/SS8050-G.kicad_sym")(options "")(descr ""))
+)
