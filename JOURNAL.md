@@ -142,3 +142,16 @@ Frankly I evaluated options with the intent to not have an extravagant schematic
 
   
 
+## 11/10/2025 - IMU change + Cost optimization  
+
+I asked the community if there are any alternatives to MPU6050 as it just is too costly. ICM-42670-P was suggested to me since it is newer and cheaper! I rerouted the board, no major changes, took out a few passives only.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAwMDQsInB1ciI6ImJsb2JfaWQifX0=--73c19a93fb342184d5d46c815d4d0d4add5c7c3f/image.png)
+
+At that point the board was still costly due to the extended parts (about $30 worth). So I tried my figuring out resistors with basic libs either by making them 0603 footprint or rounding it up to the nearest basic resistor value. I did the calculations ofc to make it safe and reduced it further to $24 worth of extended parts. Now the PCBA costs $47
+
+I am sourcing the ESP32, the ICM-42670-P and the 680k resistor (it was extended figured that it would save costs). 
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAwMDUsInB1ciI6ImJsb2JfaWQifX0=--49803c485a0b354fda54744f364ae6bfe6ace187/image.png)
+  
+
