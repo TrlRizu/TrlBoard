@@ -45,7 +45,7 @@
         "silk_text_italic": false,
         "silk_text_size_h": 0.3,
         "silk_text_size_v": 0.3,
-        "silk_text_thickness": 0.0375,
+        "silk_text_thickness": 0.075,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.2
@@ -512,7 +512,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "TrlBoard.step",
       "svg": "",
       "vrml": ""
     },

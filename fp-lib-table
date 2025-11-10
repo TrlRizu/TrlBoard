@@ -4,4 +4,5 @@
   (lib (name "ASM330LHHXTR")(type "KiCad")(uri "D:/KiCad/ASM330LHHXTR")(options "")(descr ""))
   (lib (name "CH340C")(type "KiCad")(uri "D:/KiCad/CH340C")(options "")(descr ""))
   (lib (name "SS8050-G")(type "KiCad")(uri "D:/KiCad/SS8050-G")(options "")(descr ""))
+  (lib (name "ICM-42670-P")(type "KiCad")(uri "D:/KiCad/ICM-42670-P")(options "")(descr ""))
 )
