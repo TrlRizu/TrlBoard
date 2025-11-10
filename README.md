@@ -45,9 +45,11 @@ Back:
 
 The board is manufactured through JLCPCB's PCBA though not complete as the ESP32-S3-WROOM-1 and header pins are going to be hand-soldered.
 
-> For the cost of the board's individual components check [Components](bom-JLCPCB-Assembly-Order.csv).
+> For the breakdown of the board's individual components, check check [Components](TrlBoard-Components.csv).
 
-> For my case (PCBA + ESP32 + Connector pins) check [BOM](bom.csv)
+> For the breakdown of the PCBA components, check [Components](bom-JLCPCB-Assembly-Order.csv).
+
+> For the breakdown of the entire cost check (PCBA + ESP32 + Connector pins + resistor) check [BOM](bom.csv) or look below.
 
 # 🧾 Bill of Materials
 
